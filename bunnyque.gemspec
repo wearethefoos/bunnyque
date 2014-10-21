@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Bunnyque::VERSION
   spec.authors       = ["Wouter de Vos"]
   spec.email         = ["wouter@springest.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Jobs in RabbitMQ}
+  spec.description   = %q{Jobs in RabbitMQ that support fanout.}
+  spec.homepage      = "https://github.com/foxycoder/bunnyque"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
